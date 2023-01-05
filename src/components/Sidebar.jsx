@@ -6,9 +6,6 @@ import { HiOutlineRefresh }from "react-icons/hi";
 import { TbWind }from "react-icons/tb";
 import { NavLink } from 'react-router-dom';
 
-
-
-
 const Sidebar = ({children}) => {
     const[isOpen ,setIsOpen] = useState(false);
     const toggle = () => setIsOpen (!isOpen);
